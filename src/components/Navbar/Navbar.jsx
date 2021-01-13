@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="navbar">
         <ul className="navbar-links">
           <Route exact path="/">
-            Home
+            <li>Home</li>
           </Route> 
         </ul>
       </div>

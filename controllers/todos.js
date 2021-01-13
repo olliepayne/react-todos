@@ -5,5 +5,6 @@ module.exports = {
 }
 
 function index(req, res) {
-  
+  Todo.find({})
+  .then(todos => res.json(todos))
 }
