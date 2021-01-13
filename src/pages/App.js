@@ -8,8 +8,8 @@ import TodosList from './TodosList/TodosList'
 class App extends React.Component {
   state = {
     todos: [
-      {name: 'walk dog'},
-      {name: 'take out trash'}
+      {name: 'Walk Dog', description: 'walk the dog @ 12 noon'},
+      {name: 'Take out trash', description: 'take out tonight, leave dumpsters out for tomorrow morning'}
     ]
   }
 

@@ -1,0 +1,10 @@
+.todos-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todos-list {
+  list-style-type: none;
+  padding: 0;
+}
