@@ -1,0 +1,11 @@
+.new-todo-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
