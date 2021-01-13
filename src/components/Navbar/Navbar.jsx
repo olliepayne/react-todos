@@ -1,18 +1,14 @@
 import React from 'react'
-import {Route, BrowserRouter as Router} from 'react-router-dom'
 import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <Router>
-      <div className="navbar">
-        <ul className="navbar-links">
-          <Route exact path="/">
-            <li>Home</li>
-          </Route> 
-        </ul>
-      </div>
-    </Router>
+    <div className="navbar-container">
+      <ul className="navbar-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/api/todos">All Todos</a></li>
+      </ul>
+    </div>
   )
 }
 
