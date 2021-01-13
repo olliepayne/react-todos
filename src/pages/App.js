@@ -4,6 +4,7 @@ import './App.css';
 import * as todosAPI from '../services/todos-api'
 import Navbar from '../components/Navbar/Navbar'
 import TodosList from './TodosList/TodosList'
+import NewTodo from './NewTodo/NewTodo'
 
 class App extends React.Component {
   state = {
@@ -22,8 +23,11 @@ class App extends React.Component {
     return (
       <>
         <Navbar />
-        <Route exact path="/api/todos" render={() =>
+        <Route exact path="/todos" render={() =>
           <TodosList todos={this.state.todos} completeTodo={this.completeTodo} />
+        }/>
+        <Route exact path="/todos/new" render={() =>
+          <NewTodo />
         }/>
       </>
     )

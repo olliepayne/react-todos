@@ -7,8 +7,8 @@ const Navbar = () => {
       <h2>React Todos</h2>
       <ul className="navbar-links">
         <li><a href="/">Home</a></li>
-        <li><a href="/api/todos">All Todos</a></li>
-        <li><a href="/api/todos/new">New Todo</a></li>
+        <li><a href="/todos">All Todos</a></li>
+        <li><a href="/todos/new">New Todo</a></li>
       </ul>
     </nav>
   )
