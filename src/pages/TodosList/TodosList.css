@@ -1,23 +1,17 @@
-.todos-list-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+h3 {
+  text-align: center;
 }
 
 .todos-list {
   display: flex;
   flex-direction: column;
+  align-items: center;
   list-style-type: none;
   padding: 0;
 }
 
 .todo {
   margin: 10px;
-}
-
-.todo-contents {
-  display: flex;
-  align-items: center;
 }
 
 .name {
@@ -27,6 +21,11 @@
 
 .name:hover {
   cursor: pointer;
+}
+
+.todo-contents {
+  display: flex;
+  align-items: center;
 }
 
 .done-checkbox {
