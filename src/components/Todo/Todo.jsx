@@ -11,7 +11,7 @@ const Todo = (props) => {
   return (
     <>
       <li key={index}>
-        <label className="name" onClick={showTodo}> {todo.name}</label>
+        <label className="name" onClick={showTodo}>{isOpen ? '-' : '+'} {todo.name}</label>
         {isOpen ? <p>{todo.description}</p> : ''}
       </li>
     </>

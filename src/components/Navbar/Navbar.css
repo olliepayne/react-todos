@@ -6,9 +6,12 @@ nav {
 
 .navbar-links {
   display: flex;
-  justify-content: space-around;
   list-style-type: none;
   padding: 0;
+}
+
+.navbar-links li {
+  margin: 0 10px;
 }
 
 .navbar-links a {
@@ -19,4 +22,5 @@ nav {
 .navbar-links a:hover {
   opacity: 75%;
   cursor: pointer;
+  text-decoration: underline;
 }

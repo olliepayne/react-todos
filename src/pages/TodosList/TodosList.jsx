@@ -7,7 +7,7 @@ const TodosList = ({todos}) => {
       <h3>Todo List</h3>
       <ul className="todos-list">
         {todos.map((todo, index) => (
-          <Todo index={index} todo={todo} isOpen={false} />
+          <Todo className="todo" index={index} todo={todo} isOpen={false} />
         ))}
       </ul>
     </div>

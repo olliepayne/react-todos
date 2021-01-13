@@ -12,6 +12,10 @@
   padding: 0;
 }
 
+.todo {
+  margin: 20px;
+}
+
 .name {
   font-weight: bold;
   size: 20px;
@@ -19,4 +23,5 @@
 
 .name:hover {
   cursor: pointer;
+  font-style: italic;
 }
