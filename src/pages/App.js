@@ -8,10 +8,14 @@ import TodosList from './TodosList/TodosList'
 class App extends React.Component {
   state = {
     todos: [
-      {name: 'Walk Dog', description: 'walk the dog @ 12 noon'},
-      {name: 'Take out trash', description: 'take out tonight, leave dumpsters out for tomorrow morning'},
-      {name: 'Study react', description: 'take 3 hours to knowledge binge react'}
+      {name: 'Walk Dog', description: 'walk the dog @ 12 noon', done: true},
+      {name: 'Take out trash', description: 'take out tonight, leave dumpsters out for tomorrow morning', done: false},
+      {name: 'Study react', description: 'take 3 hours to knowledge binge react', done: true}
     ]
+  }
+
+  completeTodo = () => {
+
   }
 
   render() {
@@ -19,7 +23,7 @@ class App extends React.Component {
       <>
         <Navbar />
         <Route exact path="/api/todos" render={() =>
-          <TodosList todos={this.state.todos} />
+          <TodosList todos={this.state.todos} completeTodo={this.completeTodo} />
         }/>
       </>
     )

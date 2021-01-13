@@ -20,7 +20,6 @@ nav {
 }
 
 .navbar-links a:hover {
-  opacity: 75%;
+  opacity: 50%;
   cursor: pointer;
-  text-decoration: underline;
 }
