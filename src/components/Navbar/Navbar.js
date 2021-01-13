@@ -7,7 +7,9 @@ const Navbar = () => {
     <Router>
       <div className="navbar">
         <ul className="navbar-links">
-          
+          <Route exact path="/">
+            Home
+          </Route> 
         </ul>
       </div>
     </Router>
