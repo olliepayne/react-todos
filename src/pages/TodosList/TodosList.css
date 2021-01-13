@@ -5,10 +5,18 @@
 }
 
 .todos-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   list-style-type: none;
   padding: 0;
 }
 
-.todos-list h4:hover {
+.name {
+  font-weight: bold;
+  size: 20px;
+}
+
+.name:hover {
   cursor: pointer;
 }
