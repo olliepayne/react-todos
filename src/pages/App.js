@@ -9,7 +9,8 @@ class App extends React.Component {
   state = {
     todos: [
       {name: 'Walk Dog', description: 'walk the dog @ 12 noon'},
-      {name: 'Take out trash', description: 'take out tonight, leave dumpsters out for tomorrow morning'}
+      {name: 'Take out trash', description: 'take out tonight, leave dumpsters out for tomorrow morning'},
+      {name: 'Study react', description: 'take 3 hours to knowledge binge react'}
     ]
   }
 
